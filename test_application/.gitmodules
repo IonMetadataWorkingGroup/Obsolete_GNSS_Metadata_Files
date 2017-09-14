@@ -1,0 +1,6 @@
+[submodule "libsrc/API"]
+	path = libsrc/API
+	url = https://github.com/IonMetadataWorkingGroup/API.git
+[submodule "libsrc/GNSSReader"]
+	path = libsrc/GNSSReader
+	url = https://github.com/IonMetadataWorkingGroup/GNSSReader.git

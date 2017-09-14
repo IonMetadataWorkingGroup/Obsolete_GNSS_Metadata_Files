@@ -1,0 +1,52 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.bak
+*.pdb
+*.idb
+app/TestApp/obj/
+*.mdr
+*.tlog
+*.manifest
+*.ilk
+*.lastbuildstate
+*.log
+*.cache
+*.rc
+*.ipch
+*.opensdf
+*.sdf
+*.suo
+*.user
+app/TestAppIfenConvert/Debug/TestAppIfenConvert.exe.embed.manifest.res
+app/TestAppIfenConvert/iter1.datx
+app/TestAppIfenConvert/fe0_band0.streamx
+app/TestAppIfenConvert/fe0_band1.streamx
+app/TestAppIfenConvert/fe0.setx
+app/TestAppIfenConvert/fe0_1.setx
+app/TestAppIfenConvert/RoofTop.setx

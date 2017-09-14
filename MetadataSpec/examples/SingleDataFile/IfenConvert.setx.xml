@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.ion.org/standards/sdrwg/schema/metadata.xsd">
+    <comment format="text">IFEN GNSS metadata converter test</comment>
+    <lane id="MyLane">
+        <system id="MySystem">
+            <freqbase format="MHz">4.0000000000000000e+001</freqbase>
+            <equipment>IFEN frontend type: SX3</equipment>
+            <types>Processor</types>
+        </system>
+        <block>
+            <cycles>0</cycles>
+            <chunk>
+                <sizeword>1</sizeword>
+                <countwords>1</countwords>
+                <endian>Big</endian>
+                <padding>None</padding>
+                <wordshift>Left</wordshift>
+                <lump>
+                    <stream id="MyStream">
+                        <ratefactor>1</ratefactor>
+                        <quantization>2</quantization>
+                        <packedbits>8</packedbits>
+                        <alignment>Undefined</alignment>
+                        <format>IF</format>
+                        <encoding>INT8</encoding>
+                        <band id="RfBand0_Band0">
+                            <centerfreq format="MHz">1.5754200000000001e+003</centerfreq>
+                            <translatedfreq format="MHz">1.9942000000000000e+001</translatedfreq>
+                            <delaybias format="sec">0.0000000000000000e+000</delaybias>
+                            <bandwidth format="Hz">0.0000000000000000e+000</bandwidth>
+                        </band>
+                    </stream>
+                </lump>
+            </chunk>
+        </block>
+    </lane>
+    <lane id="MyLane">
+        <system id="MySystem">
+            <freqbase format="MHz">4.0000000000000000e+001</freqbase>
+            <equipment>IFEN frontend type: SX3</equipment>
+            <types>Processor</types>
+        </system>
+        <block>
+            <cycles>0</cycles>
+            <chunk>
+                <sizeword>1</sizeword>
+                <countwords>1</countwords>
+                <endian>Big</endian>
+                <padding>None</padding>
+                <wordshift>Left</wordshift>
+                <lump>
+                    <stream id="MyStream">
+                        <ratefactor>1</ratefactor>
+                        <quantization>2</quantization>
+                        <packedbits>8</packedbits>
+                        <alignment>Undefined</alignment>
+                        <format>IF</format>
+                        <encoding>INT8</encoding>
+                        <band id="RfBand0_Band1">
+                            <centerfreq format="MHz">1.6020000000000000e+003</centerfreq>
+                            <translatedfreq format="MHz">1.9911999999999999e+001</translatedfreq>
+                            <delaybias format="sec">0.0000000000000000e+000</delaybias>
+                            <bandwidth format="Hz">0.0000000000000000e+000</bandwidth>
+                        </band>
+                    </stream>
+                </lump>
+            </chunk>
+        </block>
+    </lane>
+    <file id="fe0_band0.stream">
+        <url>fe0_band0.stream</url>
+        <timestamp>2016-09-21T08:00:0.000000000Z</timestamp>
+        <lane id="MyLane"/>
+    </file>
+    <file id="fe0_band1.stream">
+        <url>fe0_band1.stream</url>
+        <timestamp>2016-09-21T08:00:0.000000000Z</timestamp>
+        <lane id="MyLane"/>
+    </file>
+    <fileset id="MyFileSet">
+        <file>fe0_band0.stream</file>
+        <file>fe0_band1.stream</file>
+    </fileset>
+</metadata>
